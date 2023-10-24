@@ -13,6 +13,8 @@ To start Metro, run the following command from the _root_ of your React Native p
 ```bash
 touch .env && echo ' PLAID_TOKEN="link-production-<TOKEN_VALUE_GOES_HERE>"' >> .env
 
+yarn && cd ios && pod install && cd ../
+
 # OR using Yarn
 yarn start
 ```
